@@ -1,5 +1,11 @@
-String.prototype.capitalise = function() {
-  return this.charAt(0).toUpperCase() + this.slice(1)
+var capitaliseDescriptor = {
+  value : function () {
+    return this.charAt(0).toUpperCase() + this.slice(1)
+  },
+  writable : true,
+  configurable : true,
+  enumerable : false
 }
 
-String.prototype.capitalize = String.prototype.capitalise
+Object.defineProperty(String.prototype, "capitalise", capitaliseDescriptor)
+Object.defineProperty(String.prototype, "capitalize", capitaliseDescriptor)
