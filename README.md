@@ -38,4 +38,4 @@ _…alias of `capitalise()`._
 
 ![](the-devil.jpg)
 
-_This lib was just made to piss [@bloodyowl](https://github.com/bloodyowl/) off._
+_This lib was just made to piss [@bloodyowl](https://github.combloodyowl/) off._
