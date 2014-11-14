@@ -1,6 +1,6 @@
 {
   "name": "the-devil",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some methods/functions you probably shouldn't use.",
   "main": "index.js",
   "scripts": {
