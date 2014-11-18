@@ -8,7 +8,7 @@ Some methods/functions you probably shouldn't use.
 $ npm install kud/the-devil
 ```
 
-### Usage
+## Usage
 
 ```javascript
 require('the-devil')
